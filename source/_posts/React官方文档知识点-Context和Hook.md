@@ -1,7 +1,11 @@
 ---
 title: React官方文档知识点-Context和Hook
 date: 2020-05-28 17:56:57
+categories:
+- web前端
 tags:
+- React
+- 基础
 ---
 
 之前的进阶中其实有Context的内容，不过那里跳过了，但Hook的一些API涉及到Context的操作。所以先熟悉一下Context的内容。
