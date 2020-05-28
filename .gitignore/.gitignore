@@ -1,0 +1,6 @@
+.deploy_git
+node_modules
+themes
+scaffolds
+public
+db.json
