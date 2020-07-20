@@ -8,7 +8,7 @@ tags:
   - 实践
 ---
 
-最近接触了一个移动端的 2C 项目， 上一次做 2C 的项目已经可以追溯到遥远的毕业第一年了。能够把这些年间歇看到的 2C 的一些知识点进行应用还是挺有趣的。 在项目中，我们使用了 ionic 来作为移动端 h5 的组件库，经过一个多月的使用，也总结了一些经验。
+最近接触了一个移动端的 2C 项目， 上一次做 2C 的项目已经可以追溯到遥远的毕业第一年了。能够把这些年间歇看到的 2C 的一些知识点进行应用还是挺有趣的。 在项目中，我们使用了 ionic 来作为移动端 h5 的组件库，经过一个多月的使用，也总结了一些经验。
 
 # why？
 
@@ -28,7 +28,7 @@ tags:
 
 3. Documentation 的完整度不足且只有英文，虽然有文档也有 example，但 example 有些敷衍，文档整体结构和描述也不够清晰。且目前没有中文文档，对于团队成员的培养也是一个问题。
 
-4. 对 react 支持不足，不少组件目前还没有 react 版本，或者有了 react 版本文档却没有更新，依然写着“not support react”。
+4. 对 react 支持不足，不少组件目前还没有 react 版本，或者有了 react 版本文档却没有更新，依然写着“not support react”。
 
 优点当然也是存在的：
 
@@ -126,11 +126,11 @@ ionic 有九种默认的颜色可供切换并应用到众多组件上。每种�
 ionic 使用 modes 来定制化组件在不同平台的样式，每个平台的默认 mode 不同，但可以通过全局配置被重写。
 
 默认配置如下：
-Platform | Mode | Description
----|---|---
-ios | ios | ios Viewing on an iPhone, iPad, or iPod will use the iOS styles.
-android | md | Viewing on any Android device will use the Material Design styles.
-core | md | Any platform that doesn't fit any of the above platforms will use the Material Design styles.
+|Platform | Mode | Description|
+|---|---|---|
+|ios | ios | ios Viewing on an iPhone, iPad, or iPod will use the iOS styles.|
+|android | md | Viewing on any Android device will use the Material Design styles.|
+|core | md | Any platform that doesn't fit any of the above platforms will use the Material Design styles.|
 
 举个例子，安卓平台的 ionic app 将会使用 md 模式。即`<html class="md">`
 
